@@ -15,9 +15,9 @@ public class Problem2 {
         }
         //implement
         int smallest = arr[0] < arr[1] ? arr[0] : arr[1];
-//        System.out.println("==>"+smallest);
+        // System.out.println("==>"+smallest);
         int secondSmallest = smallest == arr[0] ? arr[1] : arr[0];
-//        System.out.println("==>"+secondSmallest);
+        // System.out.println("==>"+secondSmallest);
         for (int i = 2; i < arr.length; i++) {
             if (arr[i] < smallest) {
                 // if there is another smallest then replacing the second smallest with the old

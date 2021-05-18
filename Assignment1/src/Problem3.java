@@ -19,13 +19,15 @@ public class Problem3 {
         if (list == null) return false;
         List<Set<Integer>> temp = PowerSet.powerSet(list);
         for (Set<Integer> setItems : temp) {
+            // since iteration through list is easy we can convert the distinct items in
+            // list into a list item
             List<Integer> tempInt = convertSetToList(setItems);
             int tempSum = 0;
             for (int i = 0; i < tempInt.size(); i++) {
                 for (int j = i; j < tempInt.size(); j++) {
-                    if (tempSum < k) tempSum += j;
-                    else if (tempSum == k) return true;
-                    else break;
+                    if (tempSum < k) tempSum += j;        //
+                    else if (tempSum == k) return true;   //
+                    else break;                           //
                 }
             }
         }
@@ -33,6 +35,12 @@ public class Problem3 {
         return false;
     }
 
+    /**
+     *
+     * @param set distinct items
+     * @param <T> currently Integer value
+     * @return List of Object
+     */
     public static <T> List<T> convertSetToList(Set<T> set) {
         List<T> list = new ArrayList<>();
         for (T t : set)

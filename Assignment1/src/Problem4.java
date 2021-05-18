@@ -8,12 +8,12 @@ import java.util.LinkedList;
  */
 public class Problem4 {
     public static void main(String[] args) {
-        sort1(new ArrayList<>(Arrays.asList(1, 3, 9, 4, 8, 5)));
-        sort2(new LinkedList<>(Arrays.asList(1, 3, 9, 4, 8, 5)));
+        sort(new ArrayList<>(Arrays.asList(1, 3, 9, 4, 8, 5)));
+        sort(new LinkedList<>(Arrays.asList(1, 3, 9, 4, 8, 5)));
     }
 
-    // for ArrayList
-    public static void sort1(ArrayList<Integer> list) {
+    // works for ArrayList
+    public static void sort(ArrayList<Integer> list) {
         //implement
         for (int i = 0; i < list.size(); i++) {
             for (int j = i + 1; j < list.size(); j++) {
@@ -27,8 +27,8 @@ public class Problem4 {
         System.out.println(list);
     }
 
-    // for LinkedList
-    public static void sort2(LinkedList<Integer> list){
+    // works for LinkedList
+    public static void sort(LinkedList<Integer> list){
         //implement
         for (int i = 0; i < list.size(); i++) {
             for (int j = i + 1; j < list.size(); j++) {
