@@ -2,7 +2,7 @@
  * @author KidusMT
  * Date: 5/17/2021
  */
-public class Question5 {
+public class Problem5 {
     public static void main(String[] args) {
         System.out.println(find(new int[]{2, 8, 3, 4}, 3));
         System.out.println(find(new int[]{2, 8, 3, 4}, 5));
