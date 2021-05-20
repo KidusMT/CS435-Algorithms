@@ -13,4 +13,4 @@
  - [Loop Invariant](https://www.youtube.com/watch?v=Alk6PowWvgU)
 
 ## Algorithm Resources
- - [Algo Topics from GeeksforGeeks](https://www.geeksforgeeks.org/fundamentals-of-algorithms/)
+ - [GeeksforGeeks](https://www.geeksforgeeks.org/fundamentals-of-algorithms/)
