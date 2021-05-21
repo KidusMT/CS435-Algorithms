@@ -1,0 +1,10 @@
+A) Total: 2(n-2)+n+1 = 3n-1 primitive operations
+sum <- 0                          // 1
+for i <- 0 to n-1 do              // n
+    sum <- sum + 1                // 2(n-2)
+
+B) Total:(2(n-2)(n-2))+(n(n-2))+n+1= 3n^2-10n+9
+sum <- 0                          // 1
+for i <- 0 to n-1 do              // n
+    for j <- 0 to n-1 do          // n(n-2) = n^2-2n
+        sum <- sum + 1            // 2(n-2)(n-2) = 2n^2-8n+8
