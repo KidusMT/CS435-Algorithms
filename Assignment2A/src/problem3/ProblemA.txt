@@ -1,6 +1,6 @@
-A) Pseudo-code Implementation of mergeArr method:
+Pseudo-code Implementation of merge method:
 
-Algorithm mergeArr(A, B)
+Algorithm merge(A, B)
     Input: array A first argument and array B
           second argument
     Output: returns an new array containing the
@@ -24,10 +24,3 @@ Algorithm mergeArr(A, B)
               result.set(j, temp)
 
     return result
-
-B) In my implementation above I have following:
- - first for loop: O(n)
- - second for loop: O(n)
- - last nested for loop: O(n^2)
-Therefore, totally: O(n) + O(n) + O(n^2), which is: O(n^2)
-

@@ -1,0 +1,5 @@
+Total: 2(n-2)+n+1+1 = 3n primitive operations
+
+sum <- 0                          // 1
+for i <- 0 to n-1 do              // n+1
+    sum <- sum + 1                // 2(n-1)
