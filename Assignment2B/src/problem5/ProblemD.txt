@@ -1,0 +1,25 @@
+For the modified version of bubble sort, the loop invariant is:
+I(i) : 0 <= i < n - 1, the elements arr[n – 1 – i] … arr[n – 1]
+are in their final sorted order. This holds true for all i in
+the given range.
+
+Base case: i = 0, before the inner loop, arr[n – 1] might not
+hold the maximum element. However, in the loop, we check every
+single element and push the largest number to n – 1. This guarantees
+that arr[n – 1] holds the largest element by the end of i = 0’s
+iteration.
+
+Hypothetical induction: We assume for i in [0, n-1], elements
+arr[n – 1 – i] to arr[n – 1] hold the largest elements. We want
+to show that this holds for i + 1 an element of [0, n-1].
+For i + 1’th iteration, unchangedFlag is set to true. The inner
+loop starts and checks if two consecutive elements are out of order
+(previous index containing larger number than the next index).
+If they are unordered, it swaps them, sets unchangedFlag and continues.
+At the end, since elements arr[n – 1 – i] to arr[n – 1] are already
+sorted, the largest element from 0 to n – 1 – i will be placed at
+arr[n – 2 – i] which keeps the order. If all elements from 0 to n – 1
+are ordered, the unchangedFlag will still contain true which means
+our array is sorted and we can exit the sorting loops. In both cases,
+we keep the invariant that at each stage (i), the last i elements
+are the largest numbers sorted in ascending way.
