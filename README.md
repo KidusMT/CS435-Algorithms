@@ -16,6 +16,7 @@
 
 ## Iterative
  - [Loop Invariant](https://www.youtube.com/watch?v=Alk6PowWvgU)
+ - [Insertion Sort- Proof of correctness using loop invariance](https://www.youtube.com/watch?v=SElE4RlAji0)
 
 ## Algorithm Resources
  - [GeeksforGeeks](https://www.geeksforgeeks.org/fundamentals-of-algorithms/)
