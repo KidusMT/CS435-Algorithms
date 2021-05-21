@@ -10,4 +10,5 @@ Algorithm removeDups(L)
 
 Reason: Since hashmap has big-oh O(1) it will improve the previous
 implementation which was done using "contains" which is nested for
-loop indirectly.
+loop indirectly. Therefore, our big-oh will drop to O(n) which comes
+from the for loop iteration.
