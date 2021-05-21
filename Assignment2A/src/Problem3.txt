@@ -1,4 +1,5 @@
-A)
+A) Pseudo-code Implementation of mergeArr method:
+
 Algorithm mergeArr(A, B)
     Input: array A first argument and array B
           second argument
