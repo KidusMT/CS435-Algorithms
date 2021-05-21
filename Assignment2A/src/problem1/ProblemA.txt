@@ -1,6 +1,6 @@
-Total: 2(n-1)+2(n-1)+(n+1)+1 = 5n-2 primitive operations
+Total: 2n+2n+(n+2)+1 = 5n+3 primitive operations
 
 sum <- 0                          // 1
-for i <- 0 to n-1 do              // n+1
-    sum <- sum + 1                // 2(n-1)
-    increment counter i           // 2(n-1)
+for i <- 0 to n-1 do              // n+2
+    sum <- sum + 1                // 2n
+    increment counter i           // 2n
