@@ -1,0 +1,13 @@
+Algorithm removeDups(L)
+    Input: a list L
+    Output: a hashMap M containing distinct of L with key value pair
+    M <- new hashMap
+    for i <- 0 to L.size()-1 do
+        if not M.get(L(i)) null then
+           M.put(L(i))
+        return M
+
+
+Reason: Since hashmap has big-oh O(1) it will improve the previous
+implementation which was done using "contains" which is nested for
+loop indirectly.

@@ -1,0 +1,6 @@
+The reason why the complexity big-oh to be O(n2) is
+because the first "n" comes from the for loop and
+the other comes from M.contains(L[i]) since the
+contains logic is implemented using for loop and
+its going to be nested loop which will make our
+big-oh to be O(n^2).
