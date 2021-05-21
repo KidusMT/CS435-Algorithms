@@ -1,7 +1,9 @@
 # CS435-Algorithms
 
 ## Proofs
+ - [Proof by Mathematical Induction - YT (best)](https://www.youtube.com/watch?v=dMn5w4_ztSw)
  - [Proof by Mathematical Induction - YT](https://www.youtube.com/watch?v=3QXRLlodr6w) 
+ - 
 
 ## Asymptotic Notation
  - [Big O vs Big Mega vs Big Theta](https://www.youtube.com/watch?v=1tfdr1Iv6JA)
