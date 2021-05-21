@@ -1,14 +1,16 @@
 Algorithm removeDups(L)
     Input: a list L
-    Output: a hashMap M containing distinct of L with key value pair
-    M <- new hashMap
+    Output: a list M containing distinct elements of L
+    M <- new List
+    A <- new Hashmap
     for i <- 0 to L.size()-1 do
-        if not M.get(L(i)) null then
-           M.put(L(i))
-        return M
+        if not A.get(L[i]) null then
+           M.add(L[i])
+           A.put(L[i], L[i])
+    return M
 
 
 Reason: Since hashmap has big-oh O(1) it will improve the previous
 implementation which was done using "contains" which is nested for
-loop indirectly. Therefore, our big-oh will drop to O(n) which comes
-from the for loop iteration.
+loop indirectly. Therefore, the time complexity will drop to O(n)
+which comes from the for loop iteration only.

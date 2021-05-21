@@ -1,0 +1,28 @@
+Loop Invariant I(i): 0 <= i,
+
+Both the list M and the hashmap A contain distinct elements of
+L[0] to L[i]. Therefore, we want to prove that it holds true for
+i = n – 1.
+
+By Induction proof, we can find the base and hypothetical
+induction to prove the above statement.
+
+Base case (i = 0): Both A and M are empty. Since A doesn't hold
+L[0], we add L[0] to both M and A. Still, they contain the
+distinct element L[0]. Therefore the base case is TRUE.
+
+Hypothetical Induction: Let at i = k where 0 <= k <= n – 1, our
+loop invariant holds. We want to show that at i = k + 1, this
+holds. It is given that at i = k we have distinct elements in
+both M and A, and at i = k + 1, we either add L[i] to both M and
+A according to case 1.
+
+Case 1: If we add L[i] to M and A, that means L[i] is not in A
+which means L[i] is distinct from elements in L[0] to L[k - 1].
+Which keeps our M and A have distinct elements.
+
+Case 2: If we don’t add L[i] to M and A, that means L[i] exists
+in L for 0 <= i < k. This keeps our M and A have distinct elements.
+
+Therefore, by the Mathematical induction proof above we can conclude
+that algorithm is correct.
