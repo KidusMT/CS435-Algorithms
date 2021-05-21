@@ -1,0 +1,5 @@
+Inside arrays(int n) method we have two for loops, therefore:
+ - first for loop: O(n)
+ - second nested for loop: O(n^2)
+Therefore, when done together for arrays function is:
+O(n) + O(n^2), which is: O(n^2)
