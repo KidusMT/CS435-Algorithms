@@ -14,6 +14,7 @@ Algorithm mergeArr(A, B)
     for i <- 0 to B.length-1 do
        result[count] = B[i]
        count++
+
     for i <- 0 to result.length-1 do
        for j <- i+1 to result.length-1 do
            if result[j] < result[i] then
@@ -23,5 +24,9 @@ Algorithm mergeArr(A, B)
 
     return result
 
-B)
+B) In my implementation above I have following:
+ - first for loop: O(n)
+ - second for loop: O(n)
+ - last nested for loop: O(n^2)
+Therefore, totally: O(n) + O(n) + O(n^2), which is: O(n^2)
 
