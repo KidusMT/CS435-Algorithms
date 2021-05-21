@@ -1,0 +1,30 @@
+Algorithm sort (arr)
+    Input: an array of integers having 0, 1 and 2 as elements Let n = arr.length
+    Output: the given array sorted in place
+    zeroCounter ← 0
+    oneCounter ← 0
+    index ← 0
+    for value in arr do O(n)
+        if value = 0 then
+            zeroCounter ← zeroCounter + 1
+        else if value = 1 then
+            oneCounter ← oneCounter + 1
+    while zeroCounter > 0 do                            // O(n)
+        arr[index] = 0
+        zeroCounter ← zeroCounter – 1
+        index ← index + 1
+    while oneCounter > 0 do                              // O(n)
+        arr[index] = 1
+        oneCounter ← oneCounter – 1
+        index ← index + 1
+    while index < arr.length do                          // O(n)
+        arr[index] = 2
+        index ← index + 1
+    return arr
+
+The above algorithm runs in O(n) time where n is the length
+of the given array. The reason is, whatever the input value’s
+order (sorted, reversely sorted or unsorted), it will go through
+the array twice (first for counting the number of 0s and 1s;
+second for putting 0, 1 and 2 into arr). The last three loops
+will run in (n + c) time combined.

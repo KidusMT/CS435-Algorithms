@@ -1,0 +1,11 @@
+Bubble sort is an inversion bound algorithm. To prove this,
+let’s assume for an array A of size n, there are two indexes
+k, j where k < j but A[k] > A[j]. If we can show that there
+will be a comparison between the these elements, we prove that
+our algorithm is inversion bound. Inside the nested for loop
+every element is compared with their neighbors and get swapped
+if found in reverse order. This leads to checking A[k] with most
+elements (most definitely A[j], but not elements at the right
+end of the array having values greater than A[k]) and swapped to
+the right. This shows that our bubble sort is an inversion bound
+algorithm.

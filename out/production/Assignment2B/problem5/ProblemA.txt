@@ -1,0 +1,6 @@
+The best case for bubble sort will be when every elements
+in the arraylist is ordered.
+
+The worst case for bubble sort algorithm will be when
+the array is in reverse order and every element need to be
+re-ordered.
