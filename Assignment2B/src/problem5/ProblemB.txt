@@ -1,0 +1,12 @@
+The best case is: Omega(n^2)
+
+The worst case is: O(n^2)
+
+This shows us that both the worst case and best
+case for our bubble sort is O(n^2) because even
+if the items are sorted the swap only happens
+for an items which are not in order. Therefore,
+we can only save the time complexity for the
+swap instead of the nested for loop. Which has
+to iterate for both ordered and reverse ordered
+array list.
