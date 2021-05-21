@@ -1,6 +1,7 @@
-Total:(2(n-1)(n-1))+(n(n-1))+n+1+1= 3n^2-4n+6
+Total:(2(n-1)(n-1))+(2(n-1)(n-1))+(n(n-1))+n+1+1= 5n^2-8n+10
 
 sum <- 0                          // 1
 for i <- 0 to n-1 do              // n+1
     for j <- 0 to n-1 do          // n(n-1) = n^2-n
         sum <- sum + 1            // 2(n-1)(n-1) = 2n^2-4n+4
+        increment counter i       // 2(n-1)(n-1) = 2n^2-4n+4
