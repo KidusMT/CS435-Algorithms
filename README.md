@@ -13,7 +13,7 @@
  - [From Abdul Bari in YT](https://www.youtube.com/watch?v=0IAPZzGSbME&list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O)
  - [The Amazing Jenny YT](https://www.youtube.com/watch?v=QN9hnmAgmOc)
 
-## Iterative
+## Iterative Algorithms
  - [Loop Invariant: 2.3 - Loop Invariant - YT](https://www.youtube.com/watch?v=Alk6PowWvgU)
  - [Loop Invariant: 2.4 Correctness of Iterative Algorithms - YT](https://www.youtube.com/watch?v=2D9-g2hP9S8)
  - [Loop Invariants: Principles of Imperative Computation (Carnegie Mellon University) - YT](https://www.youtube.com/watch?v=7_kiWYYLngQ)
@@ -22,6 +22,9 @@
  - [Insertion Sort- Proof of correctness using loop invariance -YT](https://www.youtube.com/watch?v=SElE4RlAji0)
  - [A good example from SO](https://cs.stackexchange.com/a/104723/61494)
  - [Another great example from SO](https://stackoverflow.com/a/60312337/6021740)
+
+## Recursive Algorithms
+ - 
 
 ## Algorithm Resources
  - [GeeksforGeeks](https://www.geeksforgeeks.org/fundamentals-of-algorithms/)
