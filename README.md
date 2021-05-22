@@ -16,7 +16,7 @@
 ## Iterative
  - [Loop Invariant](https://www.youtube.com/watch?v=Alk6PowWvgU)
  - [Loop Invariants - Principles of Imperative Computation (Carnegie Mellon University)](https://www.youtube.com/watch?v=7_kiWYYLngQ)
- - [From Scranton University Material](https://www.cs.scranton.edu/~mccloske/courses/cmps144/invariants_lec.html): A loop invariant is a condition that is necessarily true immediately before and immediately after each iteration of a loop. (Note that this says nothing about its truth or falsity part way through an iteration.)
+ - [From Scranton University Material](https://www.cs.scranton.edu/~mccloske/courses/cmps144/invariants_lec.html): A `loop invariant` is a condition that is necessarily true immediately before and immediately after each iteration of a loop. (Note that this says nothing about its truth or falsity part way through an iteration.)
  - [Insertion Sort- Proof of correctness using loop invariance](https://www.youtube.com/watch?v=SElE4RlAji0)
 
 ## Algorithm Resources
