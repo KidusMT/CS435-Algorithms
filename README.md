@@ -20,6 +20,7 @@
  - [From Scranton University Material](https://www.cs.scranton.edu/~mccloske/courses/cmps144/invariants_lec.html): A `loop invariant` is a condition that is necessarily true immediately before and immediately after each iteration of a loop. (Note that this says nothing about its truth or falsity part way through an iteration.)
  - [Loops Invariants, Correctness, and Program Derivation(another level of definition..hehe)](https://archives.evergreen.edu/webpages/curricular/2001-2002/dsa01/loops.html)
  - [Insertion Sort- Proof of correctness using loop invariance -YT](https://www.youtube.com/watch?v=SElE4RlAji0)
+ - [A good example from SO](https://cs.stackexchange.com/a/104723/61494)
 
 ## Algorithm Resources
  - [GeeksforGeeks](https://www.geeksforgeeks.org/fundamentals-of-algorithms/)
