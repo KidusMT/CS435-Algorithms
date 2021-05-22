@@ -21,6 +21,7 @@
  - [Loops Invariants, Correctness, and Program Derivation(another level of definition..hehe)](https://archives.evergreen.edu/webpages/curricular/2001-2002/dsa01/loops.html)
  - [Insertion Sort- Proof of correctness using loop invariance -YT](https://www.youtube.com/watch?v=SElE4RlAji0)
  - [A good example from SO](https://cs.stackexchange.com/a/104723/61494)
+ - [Another great example from SO](https://stackoverflow.com/a/60312337/6021740)
 
 ## Algorithm Resources
  - [GeeksforGeeks](https://www.geeksforgeeks.org/fundamentals-of-algorithms/)
