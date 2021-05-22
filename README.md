@@ -28,3 +28,6 @@
 
 ## Algorithm Resources
  - [GeeksforGeeks](https://www.geeksforgeeks.org/fundamentals-of-algorithms/)
+
+## PowerSets
+ - [Coding Interview Question | Powerset - YT](https://www.youtube.com/watch?v=Ei_a0-GmLS4)
