@@ -15,6 +15,7 @@
 
 ## Iterative
  - [Loop Invariant](https://www.youtube.com/watch?v=Alk6PowWvgU)
+ - [Loop Invariants - Principles of Imperative Computation (Carnegie Mellon University)](https://www.youtube.com/watch?v=7_kiWYYLngQ)
  - [Insertion Sort- Proof of correctness using loop invariance](https://www.youtube.com/watch?v=SElE4RlAji0)
 
 ## Algorithm Resources
