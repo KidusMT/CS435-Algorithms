@@ -3,7 +3,6 @@
 ## Proofs
  - [Proof by Mathematical Induction - YT (best)](https://www.youtube.com/watch?v=dMn5w4_ztSw)
  - [Proof by Mathematical Induction - YT](https://www.youtube.com/watch?v=3QXRLlodr6w) 
- - 
 
 ## Asymptotic Notation
  - [Big O vs Big Mega vs Big Theta](https://www.youtube.com/watch?v=1tfdr1Iv6JA)
@@ -16,6 +15,8 @@
 
 ## Iterative
  - [Loop Invariant](https://www.youtube.com/watch?v=Alk6PowWvgU)
+ - [Loop Invariants - Principles of Imperative Computation (Carnegie Mellon University)](https://www.youtube.com/watch?v=7_kiWYYLngQ)
+ - [Insertion Sort- Proof of correctness using loop invariance](https://www.youtube.com/watch?v=SElE4RlAji0)
 
 ## Algorithm Resources
  - [GeeksforGeeks](https://www.geeksforgeeks.org/fundamentals-of-algorithms/)
