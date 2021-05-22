@@ -1,0 +1,10 @@
+# Compiled class file
+*.class
+
+# Folders
+out
+.idea
+
+# Package Files #
+*.jar
+*.iml
