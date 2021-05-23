@@ -31,3 +31,9 @@
 
 ## PowerSets
  - [Coding Interview Question | Powerset - YT](https://www.youtube.com/watch?v=Ei_a0-GmLS4)
+
+## Recursive vs Iterative Algorithm
+
+![image](https://user-images.githubusercontent.com/18373774/119274650-a45ebe00-bbd6-11eb-8ae0-d56f8e976a35.png)<br>
+<i>taken from: https://www.freecodecamp.org/news/how-recursion-works-explained-with-flowcharts-and-a-video-de61f40cb7f9/</i>
+
