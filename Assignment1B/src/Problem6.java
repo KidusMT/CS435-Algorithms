@@ -19,12 +19,13 @@ public class Problem6 {
 
     private static void subsetCreator(List<Set<Integer>> wholeSet, Set<Integer> subsetCreated, List<Integer> list, int start) {
         wholeSet.add(new HashSet<>(subsetCreated));
-//        System.out.println("===>wholeSet: "+wholeSet);
+        System.out.println("===>wholeSet: "+wholeSet);
         for (int i=start;i<list.size();i++){
             subsetCreated.add(list.get(i));
-//            System.out.format("addedItem: %s\n",list.get(i));
+            System.out.format("addedItem: %s\n",list.get(i));
             subsetCreator(wholeSet,subsetCreated,list,i+1);
-//            System.out.format("removedItem: %s\n",list.get(subsetCreated.size()-1));
+            System.out.println("****>wholeSet: "+subsetCreated);
+            System.out.format("removedItem: %s\n",list.get(subsetCreated.size()-1));
             subsetCreated.remove(subsetCreated.size()-1);
         }
     }
